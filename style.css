@@ -1,0 +1,175 @@
+*{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+body{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: burlywood;
+    font-family: inherit;
+}
+/*header*/
+#icono{
+    width: 4rem;
+    padding: 1rem;
+    
+}
+header{
+    display: flex;
+    background-color: rgb(124, 182, 109);
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 2px solid rgb(124, 182, 109);
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    -webkit-box-shadow: 0px 0px 29px -1px rgba(0,0,0,0.25); 
+    box-shadow: inset 0px 0px 29px -1px rgba(0,0,0,0.25);
+    font-family: inherit;
+}
+nav{
+    display: flex;
+    
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    color: black;
+    font-weight: bold;
+    font-family: inherit;
+}
+.principal{
+    padding: 6rem 0rem;
+    text-align: center;
+}
+.usuario1{
+    display: flex;
+    flex-direction: column;
+    padding-right: 1rem;
+}
+.usuario1{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    width:215px;
+    height:25px;
+    background-color: burlywood;
+}
+#usuario{
+    width:145px;
+}
+
+#contraseña{
+    width:120px;
+}
+/*imagenes*/
+
+.masajes{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 1px black solid;
+    
+}
+.con_1{
+    width: 16%;
+    min-width: 150px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+.con_1 p{
+    margin: auto;
+    text-align: center;
+    z-index: 1;
+    background-color: rgb(124, 182, 109);
+    width: 100%;
+}
+.con_1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: rgb(124, 182, 109);
+
+}
+
+
+
+/*masajes*/
+
+table{
+    background-color: rgb(124, 182, 109);
+    font-size: 2rem;
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
+    
+}
+table th,td{
+    border: 1px black solid;
+    width: 100px;
+    word-wrap: break-word;
+}
+
+tbody tr>td{
+    width: 100%;
+    height: 100%;
+    min-height: 150px;
+    min-width: 150px;
+    
+}
+td img{
+    width: 100%;
+    height: 100%;
+    min-height: 150px;
+    min-width: 150px;
+}
+
+th{
+    background-color: black;
+    color: white;
+}
+tr:nth-child(2n){
+    background-color: burlywood;
+}
+
+
+
+/*novedades*/
+.novedades{
+    display: flex;
+}
+.principal p{
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+details{
+    margin: 0rem 5rem;
+    font-size: 1.5rem;
+}
+figure {
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+    padding-left: 1rem;
+}
+
+.novedades img {
+    max-width: 220px;
+    max-height: 150px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
